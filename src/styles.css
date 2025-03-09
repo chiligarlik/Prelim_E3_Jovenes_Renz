@@ -1,0 +1,27 @@
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.profile-container {
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode .profile-container {
+  background: #1e1e1e;
+  color: white;
+}
+
+body.dark-mode .profile-input {
+  background: #333;
+  color: white;
+  border: 1px solid #555;
+}
+
+body.dark-mode .profile-button {
+  background-color: #444;
+}
+
+body.dark-mode .profile-button:hover {
+  background-color: #666;
+}
